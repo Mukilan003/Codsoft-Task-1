@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>ASTROS</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo"> <span>ASTR</span>OS </a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#popular-bundle-pack">Our Packages</a></li>
+        <li><a href="#download-app">Our App</a></li>
+      </ul>
+      <!--right-nav-(cart)-->
+      <div class="right-nav">
+        <!--cart----->
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images\cart.png"
+            class="fas fa-shopping-cart"
+            alt="Cart"
+          />
+          <span>cart</span>
+        </a>
+      </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img
+        src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/bg-1.png"
+        class="bg-1"
+        alt="bg"
+      />
+      <img
+        src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/bg-2.png"
+        class="bg-2"
+        alt="bg-2"
+      />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Order Your daily Groceries</h1>
+        <strong>#Free Delivery</strong>
+        <!--search-box------>
+        <form action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search your daily groceries"
+            name="search"
+            required
+          />
+          <!--btn------->
+          <input type="submit" class="search-btn" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+      </div>
+      <!--box-container---------->
+      <div class="category-container">
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/fish.png"
+            alt="Fish"
+          />
+          <span>Fish & Meat</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/Vegetables.png"
+            alt="Fish"
+          />
+          <span>Vegatbles</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/medicine.png"
+            alt="Fish"
+          />
+          <span>Medicine</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/baby.png"
+            alt="Fish"
+          />
+          <span>Baby</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/office.png"
+            alt="Fish"
+          />
+          <span>Office</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/beauty.png"
+            alt="Fish"
+          />
+          <span>Beauty</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/Gardening.png"
+            alt="Fish"
+          />
+          <span>Gardening</span>
+        </a>
+      </div>
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+      <!--heading----------->
+      <div class="product-heading">
+        <h3>Popular Product</h3>
+        <span>All</span>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/apple.png"
+            alt="apple"
+          />
+          <strong>Apple</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹350</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/chili.png"
+            alt="apple"
+          />
+          <strong>Chili</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹220</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/onion.png"
+            alt="apple"
+          />
+          <strong>Onion</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹250</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images\potato.png"
+            alt="apple"
+          />
+          <strong>Potato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹280</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/garlic.png"
+            alt="apple"
+          />
+          <strong>Garlic</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹500</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images\tomato.png"
+            alt="Tomato"
+          />
+          <strong>Tomato</strong>
+          <span class="quantity">1 KG</span>
+          <span class="price">₹100</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+      <!--heading-------------->
+      <div class="product-heading">
+        <h3>Popular Bundle Pack</h3>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack1.png"
+            alt="pack"
+          />
+          <strong>Big Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+4</span>
+          <span class="price">₹499</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack2.jpg"
+            alt="apple"
+          />
+          <strong>Large Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+2</span>
+          <span class="price">₹399</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack3.png"
+            alt="apple"
+          />
+          <strong>Small Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato</span>
+          <span class="price">₹249</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack1.png"
+            alt="pack"
+          />
+          <strong>Big Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+4</span>
+          <span class="price">₹549</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack2.jpg"
+            alt="apple"
+          />
+          <strong>Large Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato,+2</span>
+          <span class="price">₹449</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img
+            src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/pack3.png"
+            alt="apple"
+          />
+          <strong>Small Pack</strong>
+          <span class="quantity">Lemon, Tomato, Potato</span>
+          <span class="price">₹299</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+      <!--heading---------------->
+      <div class="client-heading">
+        <h3>What Our Client's Say</h3>
+      </div>
+      <!--box-container---------->
+      <div class="client-box-container">
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img
+              src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/bb.jpg"
+              alt="client"
+            />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Sharath M</strong>
+              <span>CEO</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            ASTROS allows you to walk away from the drudgery of grocery shopping
+            and welcome an easy relaxed way of browsing and shopping for
+            groceries. Discover new products and shop for all your food and
+            grocery needs from the comfort of your home or office.ASTROS buys
+            products from some of the best and largest brands of the country
+            like P&G, HUL, and from mills and farmers as well. The products are
+            divided into two broad categories. One is of the perishable
+            products, and the other is of the non-perishable products. The
+            non-perishable products can be delivered in some time. But, the
+            perishable ones need to be addressed before they get unusable.
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img
+              src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/client-2.jpg"
+              alt="client"
+            />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Navin</strong>
+              <span>Software Developer</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Users do not like to surf websites that take a lot of effort and
+            intricate work. Instead, they prefer websites that have a clear and
+            easy interface. In ASTROS, the functionalities of the website can be
+            accessed very quickly, and it is easy to navigate through the
+            options available. Users can place orders correctly, even in haste.
+            It attracts more users to the website.At ASTROS, they value each
+            penny of the customer. Grocery is not luxury. It is an essential
+            requirement. Hence, if they want the maximum number of customers,
+            they understand that they have to sell the products at the right
+            price. Also, ASTROS introduces discounts and offers from time to
+            time. They give advantages to new customers as well as old
+            customers. It provides a better shopping experience for everyone.
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img
+              src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/client-3.jpg"
+              alt="client"
+            />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Suba Harini</strong>
+              <span>Market Analysis</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Customer service is the soul of every business that deals directly
+            with the customers. This why ASTROS ensures that they provide
+            excellent customer service at all times. The delivery techniques
+            which they have adopted work great for them. It ensures on-time
+            delivery and maximum convenience. The management team and marketing
+            team continuously work towards expanding the client base of the
+            company. Additionally, the grievance redressal cell also functions
+            very well. The customers do not have face any inappropriate or
+            impolite behavior from this staff. The company aims to resolve the
+            issues without much delay.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+      <!--heading------------>
+      <div class="partner-heading">
+        <h3>Our Trusted Partner</h3>
+      </div>
+      <!--logo-container----->
+      <div class="logo-container">
+        <img
+          src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/bb.png"
+          alt="logo"
+        />
+        <img
+          src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/logo.png"
+          alt="logo"
+        />
+        <img
+          src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/logo-2.png"
+          alt="logo"
+        />
+        <img
+          src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/logo-4.png"
+          alt="logo"
+        />
+      </div>
+    </section>
+    <!--logo-section-end--------------------->
+    <!--==download-app====================================-->
+    <section id="download-app">
+      <!--img----------------------->
+      <div class="app-img">
+        <img
+          src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/mobile-app.png"
+          alt="app"
+        />
+      </div>
+      <!--text---------------------->
+      <div class="download-app-text">
+        <strong>Download App</strong>
+        <p>
+          In this hectic and busy lifestyle, many of us don’t want to spend
+          their time while waiting in queues at any supermarket or store and
+          this is the reason that makes the online grocery delivery services
+          more popular in today’s time. This gives a big, big, big opportunity
+          for the online grocery delivery to scale and grow their business with
+          the online grocery delivery apps. There are some benefits for the shop
+          owners and retailers will get
+        </p>
+        <!--btns------->
+        <div class="download-btns">
+          <a href="#"
+            ><img
+              src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/appstore-btn.png"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              src="C:\Users\sella\Desktop\Internships\Codsoft\TASK-1\images/googleplay-btn.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+          <a href="#"><span>ASTR</span>OS</a>
+          <!--social----->
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Product</strong>
+          <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+          </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Category</strong>
+          <ul>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Meats</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Clothes</a></li>
+          </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : 6384852887</a></li>
+            <li><a href="#">Email : Sellamuthumukil@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
